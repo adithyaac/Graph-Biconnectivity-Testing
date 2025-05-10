@@ -93,7 +93,7 @@ public:
                 
                 if (!Art[v]) {
                     int l = BFS_L(L, v, u, dummyVisited);
-                    if (l >= L[v]) {
+                    if (l > L[v]) {
                         Art[v] = true;
                     }
                 }
